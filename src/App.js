@@ -8,7 +8,7 @@ import Finalize from './components/Finalize';
 function App() {
   return (
     <div>
-      <h2> hello</h2>
+
       <Switch>
         <Route exact path="/" component={Fiverr} />
         <Route path="/fiverr" component={Fiverr} />

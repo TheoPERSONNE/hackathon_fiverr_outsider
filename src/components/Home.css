@@ -1,0 +1,163 @@
+.imgHome {
+    width: 1684px;
+    height: 760px;
+    position: relative;
+    opacity: 0.80;
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    margin : 0;
+    background-attachment: fixed;
+    }
+
+.titreHome {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 8px;
+  
+  }
+
+.descriHome {
+    font-size: 100px;
+    text-decoration: underline;
+}
+
+.liHome {
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+.choixVille {
+    font-size: 40px;
+    
+    margin-top: 200px;
+}
+
+.choixCategorie {
+    font-size: 40px;
+ 
+    margin-top: 200px;
+}
+
+.allSelect {
+   display: flex;
+   justify-content: space-around;
+}
+select {
+    
+    box-shadow: none;
+    border: 0 !important;
+    background: #2c3e50;
+    background-image: none;
+   
+
+  }
+  
+  select::-ms-expand {
+    display: none;
+  }
+
+  .select {
+    position: relative;
+    display: flex;
+    width: 40em;
+    height: 4em;
+    line-height: 5;
+    background: #2c3e50;
+    
+    margin-bottom: 220px;
+    
+    border-radius: .25em;
+
+}
+    .select1 {
+    position: relative;
+    display: flex;
+    width: 40em;
+    height: 4em;
+    line-height: 5;
+    background: #2c3e50;
+    
+  
+    border-radius: .25em;
+
+  }
+  select {
+    flex: 1;
+    padding: 0 .9em;
+    color: #fff;
+    cursor: pointer;
+  }
+  /* Arrow */
+  .select::after .select1::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+  .select:hover::after .select1:hover::after {
+    color: #f39c12;
+  }
+  
+.selectVille {
+   font-size: 20px;
+}
+
+.selectCategorie {
+    font-size: 20px;
+}
+
+.link1 {
+	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	margin: 20px auto;
+	max-width: 200px;
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 20px 30px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+}
+.link1 {
+	color: rgba(30, 22, 54, 0.6);
+	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+.link1:hover {
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(30, 22, 54, 0.7) 0 80px 0px 2px inset;
+}
+
+.centre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.imgHome1 {
+    height: 500px;
+    border-radius: 50px;
+}
+
+.choix {
+    display: flex;
+    justify-content: space-around;
+}

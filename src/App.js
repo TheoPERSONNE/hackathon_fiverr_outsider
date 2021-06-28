@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
     <div>
-      <h2> hello</h2>
+
       <Switch>
         <Route exact path="/" component={Fiverr} />
         <Route path="/fiverr" component={Fiverr} />

@@ -5,7 +5,7 @@ function Home() {
     return (
         <div className='homeLinks'>
         <Link className='links' to="/Finalize">
-             Finality
+             Finalityy
         </Link>
     </div>
     )

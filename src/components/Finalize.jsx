@@ -1,5 +1,4 @@
 import React from 'react';
-
 import "../components/Finalize.css";
 
 function Finalize(desc) {
@@ -22,6 +21,3 @@ function Finalize(desc) {
 } 
 
 export default Finalize;
-
-/*<input type="textarea" name="description de l'event" placeholder="Descriptif de l'évènement..." required
-       minLength="4" maxLength="200" size="200"></input>*/

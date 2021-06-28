@@ -2,3 +2,11 @@
 width: 50px;
 color: black;
 }
+.column_events {
+display: flex;
+flex-direction: column;
+}
+.title_freelance {
+display: flex;
+text-align: center;
+}

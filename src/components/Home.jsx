@@ -1,8 +1,13 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 function Home() {
     return (
-        <div>
-            poil
-        </div>
+        <div className='homeLinks'>
+        <Link className='links' to="/Finalize">
+             Finality
+        </Link>
+    </div>
     )
 }
 

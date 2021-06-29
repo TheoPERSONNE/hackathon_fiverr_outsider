@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Switch, Route } from 'react-router-dom';
 
 import './App.css';
 import Fiverr from './components/Fiverr_source';
@@ -9,8 +9,7 @@ import Finalize from './components/Finalize';
 function App() {
   return (
     <div className="App">
-    <div>
-      <h2> hello</h2>
+          <h2> hello</h2>
       <Switch>
         <Route exact path="/" component={Fiverr} />
         <Route path="/fiverr" component={Fiverr} />

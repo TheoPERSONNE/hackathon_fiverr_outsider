@@ -14,7 +14,7 @@ function Home() {
                 <h1 className="titreHome">Share your passion!</h1>
                 <div className="centre">
                 <ul className="ulHome">
-                    <li className="liHome">Linking freelancers</li>
+                    <li className="liHome">Connecting freelancers</li>
                     <li className="liHome">Knowledge exchange</li>
                     <li className="liHome">Event</li>
                     <li className="liHome">Choose your city, category</li>

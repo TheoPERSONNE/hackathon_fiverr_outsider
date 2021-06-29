@@ -1,15 +1,17 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
 
-import './App.css';
-import Fiverr from './components/Fiverr_source';
-import Home from './components/Home';
-import Finalize from './components/Finalize';
+import React from "react";
+import { Route, Switch } from "react-router-dom";
+import "./App.css";
+import Fiverr from "./components/Fiverr_source";
+import Home from "./components/Home";
+import Finalize from "./components/Finalize";
+
 
 function App() {
+
   return (
-    <div className="App">
-          <h2> hello</h2>
+
+    <div>
       <Switch>
         <Route exact path="/" component={Fiverr} />
         <Route path="/fiverr" component={Fiverr} />

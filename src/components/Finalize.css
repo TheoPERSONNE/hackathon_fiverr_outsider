@@ -1,7 +1,43 @@
-.descriptionEvent {
+/*.Finalize {
   height: 100px;
   margin-right: 100px;
   margin-left: 100px;
-} 
-/*display: flex;
-  align-content: center;*/
+  
+} */
+
+  .Title {
+    font: 400 16px/24px "Macan","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #ffffff;
+    /*width: 100%;*/
+    background-color: #4d1727;
+}
+
+
+input.validation:hover {
+  background-color: #17dd1e;
+  font: 400 16px/24px "Macan","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  cursor: pointer;
+  color: white;
+  border-color: #5c1c2f;
+  /*Transition: all 0.2s;*/
+}
+
+input.validation {
+  background-color: #4CAF50;
+  font: 400 16px/24px "Macan","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  cursor: pointer;
+  color: white;
+  border-color: #5c1c2f;
+  /*Transition: all 0.2s;*/
+}
+
+.descriptionEvent {
+font: 400 16px/24px "Macan","Helvetica Neue",Helvetica,Arial,sans-serif;
+ resize : both;
+ min-width : 250px;
+ min-height : 250px;
+ max-width : 250px;
+ max-height : 250px;
+}

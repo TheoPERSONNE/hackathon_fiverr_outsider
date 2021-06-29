@@ -12,6 +12,7 @@ function Fiverr () {
         
         <div className='fiverrLinks'>
             <img className="logo" src={Logo} alt="Logo fiverr" />
+            <hr></hr>
             <div className="center_h2">
                 <h2 className='title_freelance'>FREELANCE</h2>
                 <div className="link2">
@@ -21,21 +22,28 @@ function Fiverr () {
                 </div>
             </div>
                 <div className="allCard">
-                    <div className ="column_events"> 
+                    <div className="column_events"> 
                     <p>All Events By category</p>
                     <p>Build Skills</p>
                     <p>Diversity and inclusion</p>
                     <p>Get Connected</p>
                     <p>Get inspired</p>
                     <p>Freelance</p>
+                </div>
                 
                     <div className="container_card">
+                        <div className="carduno">
                         <img className="card" src={card1} alt="Logo fiverr" />
-                        <img className="card" src={card2} alt="Logo fiverr" />
+                        <img className="card2" src={card2} alt="Logo fiverr" />
                         <img className="card" src={card3} alt="Logo fiverr" />
+                        </div>
+                        <div className="carddos">
+                        <img className="card" src={card1} alt="Logo fiverr" />
+                        <img className="card2" src={card2} alt="Logo fiverr" />
+                        <img className="card" src={card3} alt="Logo fiverr" />
+                        </div>
                     </div>
-                </div>
-        </div>
+             </div>
     </div>
 )};
 

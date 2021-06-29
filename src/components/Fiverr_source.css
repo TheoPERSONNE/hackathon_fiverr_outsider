@@ -2,3 +2,13 @@
 width: 50px;
 color: black;
 }
+
+.center_h2 {
+display: flex;
+justify-content: space-around;
+}
+
+.create_event {
+    background-color: chartreuse;
+    margin-top: 30px;
+}

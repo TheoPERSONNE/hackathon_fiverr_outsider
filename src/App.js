@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Finalize from "./components/Finalize";
 
 function App() {
+
   return (
     <Switch>
       <Route exact path="/" component={Fiverr} />

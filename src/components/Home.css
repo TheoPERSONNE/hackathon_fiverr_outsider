@@ -45,6 +45,7 @@
 .allSelect {
    display: flex;
    justify-content: space-around;
+   background-color: cadetblue;
 }
 select {
     
@@ -155,9 +156,14 @@ select {
 .imgHome1 {
     height: 500px;
     border-radius: 50px;
+    padding-bottom: 50px;
 }
 
 .choix {
     display: flex;
     justify-content: space-around;
+}
+
+.under {
+    background-color: cadetblue;
 }

@@ -1,14 +1,53 @@
-.links {
-width: 50px;
-color: black;
+
+
+.title_freelance {
+    text-align: center;
+    font-size: 40px;
 }
 
-.center_h2 {
-display: flex;
-justify-content: space-around;
+.link2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 1200px;
 }
 
-.create_event {
-    background-color: chartreuse;
-    margin-top: 30px;
+
+.linkCreate {
+	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	margin: 20px auto;
+	max-width: 200px;
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 20px 30px;
+   
+    
+}
+.linkCreate {
+	color: rgba(30, 22, 54, 0.6);
+	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+.linkCreate:hover {
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(30, 22, 54, 0.7) 0 80px 0px 2px inset;
+}
+
+.allCard {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+}
+
+.column_events {
+    font-size: 30px;
 }

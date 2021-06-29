@@ -10,29 +10,31 @@ function Home() {
                 <div>
                 <img src={img}  className="imgHome" alt="img" />
                 </div>
-                <h1 className="titreHome">Titre principal</h1>
+                <h1 className="titreHome">Share your passion!</h1>
                 <div className="centre">
                 <ul className="ulHome">
-                    <li className="liHome">point n1</li>
-                    <li className="liHome">point n1</li>
-                    <li className="liHome">point n1</li>
-                    <li className="liHome">point n1</li>
+                    <li className="liHome">Choose your location</li>
+                    <li className="liHome">Choose your category</li>
+                    <li className="liHome">Name your event</li>
+                    <li className="liHome">Give a small decription of the event</li>
+                    <li className="liHome">When it happen</li>
+                    <li className="liHome">Well done, let's start</li>
                 </ul>
                 <img src={img1} className="imgHome1" alt="img" />
                 </div>
                 <div className="choix">
-                <h3 className="choixVille">Choix de l'emplacement</h3>
-                <h3 className="choixCategorie">Choix de la categorie</h3>
+                <h3 className="choixVille">Your location</h3>
+                <h3 className="choixCategorie">Your category</h3>
                 </div>
                 <div className="allSelect">
             
                 <div className="select1">
                 <select name="ville" id="ville-select">
-                <option className="selectVille" value="">Ville</option>
+                <option className="selectVille" value="">City</option>
                 <option className="selectVille" value="paris">Paris</option>
-                <option  className="selectVille" value="londre">Londre</option>
-                <option className="selectVille" value="tokyo">Tokyo</option>
-                <option className="selectVille" value="marseille">Marseille</option>
+                <option  className="selectVille" value="londre">London</option>
+                <option className="selectVille" value="tokyo">Tel aviv</option>
+                <option className="selectVille" value="marseille">New york</option>
                 </select>
                 </div>
                 
@@ -40,24 +42,22 @@ function Home() {
                
                 <div className="select">
                 <select name="selectCategorie" id="selectCategorie">
-                <option className="selectCategorie" value="">Categorie</option>
-                <option className="selectCategorie" value="1">Paris</option>
-                <option className="selectCategorie" value="2">Londre</option>
-                <option className="selectCategorie" value="3">Tokyo</option>
-                <option className="selectCategorie" value="4">Marseille</option>
-                <option className="selectCategorie" value="4">Marseille</option>
-                <option className="selectCategorie" value="4">Marseille</option>
-                <option className="selectCategorie" value="4">Marseille</option>
-                <option className="selectCategorie" value="4">Marseille</option>
-                <option className="selectCategorie" value="4">Marseille</option>
-                <option className="selectCategorie" value="4">Marseille</option>
-                <option className="selectCategorie" value="4">Marseille</option>
+                <option className="selectCategorie" value="">Category</option>
+                <option className="selectCategorie" value="1">Graphics & design</option>
+                <option className="selectCategorie" value="2">Digital Marketing</option>
+                <option className="selectCategorie" value="3">Writing & translation</option>
+                <option className="selectCategorie" value="4">Video & translation</option>
+                <option className="selectCategorie" value="5">Music & audio</option>
+                <option className="selectCategorie" value="6">Programming & tech</option>
+                <option className="selectCategorie" value="7">Data</option>
+                <option className="selectCategorie" value="8">Business</option>
+                <option className="selectCategorie" value="9">Hobbies</option>
                 </select>
                 </div>
                 </div>
     	        <div className='homeLinks'>
     	        <Link className='link1' to="/Finalize">
-    	             Finaliti
+    	             NEXT STEP
     	        </Link>
                 </div>
                 </div>

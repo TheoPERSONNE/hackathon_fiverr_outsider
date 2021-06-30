@@ -3,32 +3,36 @@ import { Link } from 'react-router-dom';
 import './Home.css'
 import img from './imgHome.webp';
 import img1 from './imgHome1.webp';
+import Logo from './logo_fiverr.png';
 
 
 function Home() {
     	    return (
                 <div>
+                    <img className="logo" src={Logo} alt="Logo fiverr" />
+                <hr></hr>
                 <div>
                 <img src={img}  className="imgHome" alt="img" />
                 </div>
                 <h1 className="titreHome">Share your passion!</h1>
                 <div className="centre">
                 <ul className="ulHome">
-                    <li className="liHome">Choose your location</li>
-                    <li className="liHome">Choose your category</li>
-                    <li className="liHome">Name your event</li>
-                    <li className="liHome">Give a small decription of the event</li>
+                    <li className="liHome">Connecting freelancers</li>
+                    <li className="liHome">Knowledge exchange</li>
+                    <li className="liHome">Event</li>
+                    <li className="liHome">Choose your city, category</li>
                     <li className="liHome">When it happen</li>
                     <li className="liHome">Well done, let's start</li>
                 </ul>
                 <img src={img1} className="imgHome1" alt="img" />
                 </div>
+                <div className="under">
                 <div className="choix">
                 <h3 className="choixVille">Your location</h3>
                 <h3 className="choixCategorie">Your category</h3>
                 </div>
-                <div className="allSelect">
             
+                <div className="allSelect">
                 <div className="select1">
                 <select name="ville" id="ville-select">
                 <option className="selectVille" value="">City</option>
@@ -54,6 +58,7 @@ function Home() {
                 <option className="selectCategorie" value="8">Business</option>
                 <option className="selectCategorie" value="9">Hobbies</option>
                 </select>
+                </div>
                 </div>
                 </div>
     	        <div className='homeLinks'>

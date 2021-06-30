@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import './Fiverr_source.css';
 // import Cards from './Cards';
 import Logo from './logo_fiverr.png';
-import card1 from './cardun.webp';
-import card2 from './carddeux.webp';
-import card3 from './cardtrois.webp';
-import card4 from './cardquatre.webp';
-import card5 from './cardcinq.webp';
-import card6 from './cardsix.webp';
+import card1 from './Card.png';
+import card2 from './Card3.png';
+import card3 from './card2.png';
+import card4 from './Card4.png';
+import card5 from './Card5.png';
+import card6 from './card2.png';
 
 function Fiverr () {
     return (
@@ -36,7 +36,7 @@ function Fiverr () {
                 
                     <div className="container_card">
                         <div className="carduno">
-                        <img className="card" src={card1} alt="Logo fiverr" />
+                        <img className="card" src={card6} alt="Logo fiverr" />
                         <img className="card2" src={card2} alt="Logo fiverr" />
                         <img className="card" src={card3} alt="Logo fiverr" />
                         </div>
@@ -45,6 +45,7 @@ function Fiverr () {
                         <img className="card2" src={card5} alt="Logo fiverr" />
                         <img className="card" src={card6} alt="Logo fiverr" />
                         </div>
+                        <img className="card" src={card1} alt="Logo fiverr" />
                     </div>
              </div>
             </div>

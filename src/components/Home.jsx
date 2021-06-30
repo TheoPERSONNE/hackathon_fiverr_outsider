@@ -3,11 +3,14 @@ import { Link } from 'react-router-dom';
 import './Home.css'
 import img from './imgHome.webp';
 import img1 from './imgHome1.webp';
+import Logo from './logo_fiverr.png';
 
 
 function Home() {
     	    return (
                 <div>
+                    <img className="logo" src={Logo} alt="Logo fiverr" />
+                <hr></hr>
                 <div>
                 <img src={img}  className="imgHome" alt="img" />
                 </div>

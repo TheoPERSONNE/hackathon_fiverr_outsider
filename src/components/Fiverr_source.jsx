@@ -6,6 +6,9 @@ import Logo from './logo_fiverr.png';
 import card1 from './cardun.webp';
 import card2 from './carddeux.webp';
 import card3 from './cardtrois.webp';
+import card4 from './cardquatre.webp';
+import card5 from './cardcinq.webp';
+import card6 from './cardsix.webp';
 
 function Fiverr () {
     return (
@@ -38,13 +41,13 @@ function Fiverr () {
                         <img className="card" src={card3} alt="Logo fiverr" />
                         </div>
                         <div className="carddos">
-                        <img className="card" src={card1} alt="Logo fiverr" />
-                        <img className="card2" src={card2} alt="Logo fiverr" />
-                        <img className="card" src={card3} alt="Logo fiverr" />
+                        <img className="card" src={card4} alt="Logo fiverr" />
+                        <img className="card2" src={card5} alt="Logo fiverr" />
+                        <img className="card" src={card6} alt="Logo fiverr" />
                         </div>
                     </div>
              </div>
-    </div>
+            </div>
 )};
 
 export default Fiverr;

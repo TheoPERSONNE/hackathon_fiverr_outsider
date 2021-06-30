@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css'
-import img from './imgHome.webp';
-import img1 from './imgHome1.webp';
+import img from './prese.webp';
+import img1 from './hug.webp';
 import Logo from './logo_fiverr.png';
 
 
@@ -56,7 +56,7 @@ function Home() {
                 <option className="selectCategorie" value="6">Programming & tech</option>
                 <option className="selectCategorie" value="7">Data</option>
                 <option className="selectCategorie" value="8">Business</option>
-                <option className="selectCategorie" value="9">Hobbies</option>
+                <option className="selectCategorie" value="9">Lifestyle</option>
                 </select>
                 </div>
                 </div>
